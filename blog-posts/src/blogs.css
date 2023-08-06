@@ -1,0 +1,25 @@
+/* .blog-preview {
+  padding-top: 100px;
+  padding-left: 30px;
+  color: rgb(237, 13, 155);
+  display: flex;
+  /* justify-content: space-between; */
+/* flex-direction: column; */
+
+.blog-box {
+  padding-top: 10px;
+  margin: 20px 0;
+  border-bottom: 1px solid #fafafa;
+  /* display: inline; */
+}
+.blog-box:hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.blog-box h2 {
+  font-size: 20px;
+  color: #f1356d;
+  margin-bottom: 8px;
+  display: flex;
+  justify-content: space-between;
+  /* width: 30%; */
+}

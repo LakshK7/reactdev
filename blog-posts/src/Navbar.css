@@ -1,5 +1,5 @@
 .navbar {
-  background-color: rgba(230, 9, 123, 0.7); /* Translucent black background */
+  /* background-color: coral !important; */
   position: fixed;
   top: 0;
   left: 0;
@@ -12,6 +12,10 @@
   display: flex;
 }
 
+/* .navbar :hover {
+  box-shadow: 1px 3px 5px rgba(0, 0, 0, 0.1);
+} */
+
 .nav-links {
   display: inline;
   justify-content: right; /* Place content links at the right */
@@ -20,7 +24,7 @@
 
 .nav-links a {
   text-decoration: none;
-  color: white;
+  color: lightcoral;
   margin: 0 10px; /* Adjust the spacing between content links */
   font-size: 20px; /* Adjust font size as needed */
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
@@ -38,5 +42,5 @@
   padding-left: 20px;
   font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
     "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
-  color: white;
+  color: rgb(237, 13, 155);
 }
