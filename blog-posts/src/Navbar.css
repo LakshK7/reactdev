@@ -1,0 +1,42 @@
+.navbar {
+  background-color: rgba(230, 9, 123, 0.7); /* Translucent black background */
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 10px; /* Add some padding for better visual appearance */
+  box-sizing: border-box; /* Ensure padding doesn't affect the width */
+  border-radius: 8px;
+  box-shadow: 50px;
+  justify-content: space-between;
+  display: flex;
+}
+
+.nav-links {
+  display: inline;
+  justify-content: right; /* Place content links at the right */
+  padding-top: 15px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: white;
+  margin: 0 10px; /* Adjust the spacing between content links */
+  font-size: 20px; /* Adjust font size as needed */
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  display: inline;
+}
+
+.nav-links a:hover {
+  color: coral;
+}
+
+.nav-title {
+  display: inline;
+  font-size: 40px;
+  padding-left: 20px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  color: white;
+}
